@@ -64,6 +64,6 @@ public class UserController {
             return "User deleted successfully";
         }
 
-        return "User not found";
+        return "User not found ";
     }
 }
