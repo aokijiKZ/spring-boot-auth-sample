@@ -1,7 +1,11 @@
 package com.kuzan.temp.dtos;
 
+import jakarta.validation.constraints.NotBlank;
+
 public class UserDto {
     private String name;
+
+    @NotBlank(message = "Email is required")
     private String email;
 
     public UserDto() {
